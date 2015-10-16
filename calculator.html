@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/calculator.css"/>
+<body>
+    <article>
+        <div>
+            <input id="result" type="text" class="result" contenteditable="false"/>
+        </div>
+        <div >
+            <input id="AC" type="button"  class="button_width " value="AC" onclick="cal('AC')"/>
+            <input type="button"  class="button_width " value="+/-" onclick="cal('+/-')"/>
+            <input type="button"  class="button_width " value="%" onclick="cal('%')"/>
+            <input type="button"  class="button_width " value="÷" onclick="cal('÷')"/>
+        </div>
+
+        <div>
+            <input type="button"  class="button_width " value="7" onclick="cal('7')"/>
+            <input type="button"  class="button_width " value="8" onclick="cal('8')"/>
+            <input type="button"  class="button_width " value="9" onclick="cal('9')"/>
+            <input type="button"  class="button_width " value="x" onclick="cal('x')"/>
+        </div>
+
+        <div >
+            <input type="button" class="button_width " value="4" onclick="cal('4')"/>
+            <input type="button" class="button_width " value="5" onclick="cal('5')"/>
+            <input type="button" class="button_width " value="6" onclick="cal('6')"/>
+            <input type="button"  class="button_width " value="-" onclick="cal('-')"/>
+        </div>
+
+        <div >
+            <input type="button" class="button_width" value="1" onclick="cal('1')"/>
+            <input type="button" class="button_width " value="2" onclick="cal('2')"/>
+            <input type="button" class="button_width " value="3" onclick="cal('3')"/>
+            <input type="button"  class="button_width " value="+" onclick="cal('+')"/>
+        </div>
+
+        <div >
+            <input type="button" class="button_double_width " value="0" onclick="cal('0')"/>
+            <input type="button" class="button_width" value="." onclick="cal('.')"/>
+            <input type="button"  class="button_width" value="=" onclick="cal('＝')"/>
+        </div>
+
+    </article>
+    <script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>

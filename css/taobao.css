@@ -1,0 +1,45 @@
+li{
+    list-style: none;
+}
+
+strong{
+    font-size: 20px;
+    font-family: "A Arial";
+    color: red;
+}
+
+span{
+    font-family: "宋体";
+}
+
+.toLeft {
+    float: left;
+}
+
+.toRight{
+    float: right;
+}
+
+.buy{
+    width: 75px;
+    height: 25px;
+    background: red;
+    color:white;
+    text-align:center;
+}
+
+.notation1{
+    font-size: small;
+    width: 175px;
+    height: 25px;
+    float: left;
+}
+
+.notation2{
+
+    font-size: small;
+    text-align:right;
+    width: 155px;
+    height: 25px;
+    float: right;
+}
