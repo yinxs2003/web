@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #f0b6cf;
+}
+
+div p {
+    margin: 5px;
+    padding: 5px;
+}
+
+.background {
+    background-image: url(../image/sinablogb.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+.title {
+    margin-left: 240px;
+    padding-top: 30px;;
+}
+
+.nav {
+    margin-top: 110px;
+    margin-left: 240px;
+    padding-bottom:20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.leftNav {
+    float: left;
+    margin-left: 20px;
+    background-color: #fcf1f5;
+    border: 1px solid lightgray;
+    text-align: center;
+    width: 200px;
+}
+
+.content {
+    float: left;
+    margin-left: 20px;
+    background-color: #fcf1f5;
+    border: 1px solid lightgray;
+    /*text-align: center;*/
+    width: auto;
+}
+
+.index1 {
+    margin-top: 10px;
+}
+
+.index2 {
+    position: absolute;
+    left: 145px;
+    top: 325px;
+    z-index: 1;
+}
+
+.text-center {
+    font-size: small;
+    font-family: "ËÎÌו";
+    margin-bottom: 5px;
+}
+
+.float-left {
+    float: left;
+}
+
+.qing {
+    position: absolute;
+    left: 25px;
+    top: 395px;
+    z-index: -1;
+}
+
+.qing-text {
+    font-size: small;
+    position: absolute;
+    left: 60px;
+}
+
+.weibo {
+    position: absolute;
+    left: 123px;
+    top: 395px;
+    z-index: -1;
+}
+
+.weibo-text {
+    font-size: small;
+    position: absolute;
+    left: 155px;
+}
+
+.pink {
+    text-align: left;
+    padding-left: 8px;
+    font-size: 15px;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: #f7dde8;
+}
+
+.pink2 {
+    height: auto;
+    padding: 5px 0px;
+    width: 700px;
+    text-align: left;
+    padding-left: 8px;
+    font-size: 15px;
+    font-family: "Times New Roman", Georgia, Serif;
+    background-color: #f7dde8;
+}
+
+.margined{
+    margin-top: 2px;;
+    margin-bottom: 2px;
+}
+
+.button-color{
+    /*color: #f7d4e6;*/
+    width: 70px;
+    padding: 2px;
+    background-image: url("../image/btn_bg.gif");
+}
+
+.toLeft{
+    font-size: small;
+    text-align: left;
+}
+
+a {
+    color: white;
+}
+
+.dashed {border-bottom:1px dashed red;}
+
+h4{
+    margin: 5px;
+}
