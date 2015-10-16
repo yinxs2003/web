@@ -1,0 +1,44 @@
+.floatToLeft{
+    float: left;
+    display: inline;
+}
+
+.floatToRight{
+    float: right;
+}
+
+div{
+    height: 255px;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+p{
+    padding: 0px;
+}
+
+.middle {
+    /*padding: 2px;*/
+    /*border-width: thick;*/
+    /*border-color: red;*/
+    border: 1px solid gray;
+}
+
+h2{
+    color: red;
+}
+
+h3{
+
+}
+
+.font-red {
+    color:red;
+}
+
+.font-black {
+    font-family: ºÚÌå;
+    color:black;
+}

@@ -2,49 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>计算器</title>
+    <title></title>
+    <link href="css/calculator.css" rel="stylesheet" type="text/css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
-<link rel="stylesheet" type="text/css" href="css/calculator.css"/>
+
 <body>
-    <article>
-        <div>
-            <input id="result" type="text" class="result" contenteditable="false"/>
-        </div>
-        <div >
-            <input id="AC" type="button"  class="button_width " value="AC" onclick="cal('AC')"/>
-            <input type="button"  class="button_width " value="+/-" onclick="cal('+/-')"/>
-            <input type="button"  class="button_width " value="%" onclick="cal('%')"/>
-            <input type="button"  class="button_width " value="÷" onclick="cal('÷')"/>
-        </div>
+<fieldset>
+    <p>
+        <caption> calculator</caption>
+    </p>
+    <table>
+        <tr><input type="text" id="content" contenteditable="false" value="0"/></tr>
+        <tr>
+            <td><input type="button" class="button" id="seven" value="7" onclick="getNum('seven')"></td>
+            <td><input type="button" class="button" id="eight" value="8" onclick="getNum('eight')"/></td>
+            <td><input type="button" class="button" id="nine" value="9" onclick="getNum('nine')"/></td>
+            <td><input type="button" class="button" id="plus" value="+" onclick="getOperator('plus')"></td>
+            <td><input type="button" class="button" id="getResult" value="=" onclick="getResult('getResult')"></td>
+            <td><input type="button" class="button" id="AC" value="AC" onclick="makeClear('AC')"></td>
+        </tr>
 
-        <div>
-            <input type="button"  class="button_width " value="7" onclick="cal('7')"/>
-            <input type="button"  class="button_width " value="8" onclick="cal('8')"/>
-            <input type="button"  class="button_width " value="9" onclick="cal('9')"/>
-            <input type="button"  class="button_width " value="x" onclick="cal('x')"/>
-        </div>
+        <tr>
+            <td><input type="button" class="button" id="six" value="6" onclick="getNum('six')"></td>
+            <td><input type="button" class="button" id="five" value="5" onclick="getNum('five')"/></td>
+            <td><input type="button" class="button" id="four" value="4" onclick="getNum('four')"/></td>
+            <td><input type="button" class="button" id="minus" value="-" onclick="getOperator('minus')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" class="button" id="three" value="3" onclick="getNum('three')"/></td>
+            <td><input type="button" class="button" id="two" value="2" onclick="getNum('two')"/></td>
+            <td><input type="button" class="button" id="one" value="1" onclick="getNum('one')"/></td>
+            <td><input type="button" class="button" id="multiply" value="*" onclick="getOperator('multiply')"/></td>
+        </tr>
 
-        <div >
-            <input type="button" class="button_width " value="4" onclick="cal('4')"/>
-            <input type="button" class="button_width " value="5" onclick="cal('5')"/>
-            <input type="button" class="button_width " value="6" onclick="cal('6')"/>
-            <input type="button"  class="button_width " value="-" onclick="cal('-')"/>
-        </div>
-
-        <div >
-            <input type="button" class="button_width" value="1" onclick="cal('1')"/>
-            <input type="button" class="button_width " value="2" onclick="cal('2')"/>
-            <input type="button" class="button_width " value="3" onclick="cal('3')"/>
-            <input type="button"  class="button_width " value="+" onclick="cal('+')"/>
-        </div>
-
-        <div >
-            <input type="button" class="button_double_width " value="0" onclick="cal('0')"/>
-            <input type="button" class="button_width" value="." onclick="cal('.')"/>
-            <input type="button"  class="button_width" value="=" onclick="cal('＝')"/>
-        </div>
-
-    </article>
-    <script type="text/javascript" src="js/calculator.js"></script>
+        <tr>
+            <td colspan="2"><input type="button" class="button" id="zero" value="0" onclick="getNum('zero')"/></td>
+            <td><input type="button" class="button" value="." id="point" onclick="getNum('point')"/></td>
+            <td><input type="button" class="button" value="/" id="divide" onclick="getOperator('divide')"/></td>
+        </tr>
+    </table>
+</fieldset>
+<script type="text/javascript" charset="gb2312" src="script/calculator.js"></script>
 </body>
 </html>

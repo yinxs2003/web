@@ -1,0 +1,24 @@
+.title-background {
+    text-align: center;
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    border: 1px solid #999999;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+table {
+    width: 200px;
+    border: thin solid #0000FF
+}
+
+table tr td {
+    width: 200px;
+    border-bottom: 1px solid gray;
+}

@@ -1,17 +1,16 @@
-.button_width{
-    width: 35px;
+#zero{
+    width: 106px;
 }
 
-.button_double_width{
-    width: 74px;
-}
-
-.orange {
-    background-color: #FF6600;
-}
-
-.result{
-    width:143px;
-    heigth:100px;
+#content{
+    width: 205px;
     text-align: right;
+}
+
+.td{
+    margin: 40px;
+}
+
+.button{
+    width: 50px;
 }
